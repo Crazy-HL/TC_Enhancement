@@ -1,10 +1,8 @@
 <script>
-	import api from "./api";
 	import ArticleContent from "./components/ArticleContent.vue";
-	import CommentList from "./components/CommentList.vue";
 	export default {
 		name: "App",
-		components: { ArticleContent, CommentList },
+		components: { ArticleContent },
 		mounted() {
 			// this.getData();
 		},
@@ -31,7 +29,7 @@
 
 <template>
 	<ArticleContent />
-	<CommentList />
+	<!-- <CommentList /> -->
 </template>
 
 <style scoped></style>
